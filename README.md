@@ -12,6 +12,28 @@ Preparado para Claude Code, Grok y Antigravity. Una skill es una carpeta con `SK
 
 No instales el catálogo entero. TDD aparece tres veces. Una puerta de entrada, no dos.
 
+## Grok Bot
+
+Este repositorio es la copia consultable. Grok Bot no ve el chat donde se preparó el briefing: lee este repo.
+
+En un chat de Grok Bot:
+
+```text
+Instala las skills de https://github.com/jesusprodriguezUnir/skills-briefing.
+Lee cada carpeta skills/<nombre>/SKILL.md y cópiala a tu biblioteca de skills
+(~/.grok/skills/ o la carpeta de workflows que uses).
+No instales el catálogo entero de Superpowers ni de Osmani: solo estas 10.
+Al terminar, lista las que quedaron instaladas.
+```
+
+Las 10 carpetas están en [skills/](skills/). El resto de este repo es el índice: qué hace cada skill de los repos de origen y en qué proyecto tuyo encaja.
+
+| Agente | Dónde copiar una skill |
+|---|---|
+| Grok Bot | `~/.grok/skills/<nombre>/` o la carpeta de workflows del bot |
+| Claude Code | `.claude/skills/` en el repo, o `~/.claude/skills/` |
+| Antigravity | el directorio de skills del proyecto |
+
 ## Capítulos
 
 | Capítulo | Skills |
@@ -41,14 +63,6 @@ Skills escritas para estos repos. No son copias de los repositorios de origen.
 - [project-optimizer](skills/project-optimizer/SKILL.md)
 - [systemic-issue-triage](skills/systemic-issue-triage/SKILL.md)
 - [work-unit-commits](skills/work-unit-commits/SKILL.md)
-
-## Dónde viven
-
-| Agente | Carpeta |
-|---|---|
-| Claude Code | `.claude/skills/` en el repo, o `~/.claude/skills/` |
-| Antigravity | el directorio de skills del proyecto |
-| Grok | el directorio de skills del proyecto |
 
 ## Fuentes
 
